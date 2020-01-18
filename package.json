@@ -16,5 +16,8 @@
     "url": "https://github.com/DevonMartens/project3_test/issues"
   },
   "homepage": "https://github.com/DevonMartens/project3_test#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
