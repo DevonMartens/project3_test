@@ -1,7 +1,6 @@
 {
   "name": "project3_test",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/DevonMartens/project3_test/issues"
   },
-  "homepage": "https://github.com/DevonMartens/project3_test#readme"
+  "homepage": "https://github.com/DevonMartens/project3_test#readme",
+  "description": ""
 }
