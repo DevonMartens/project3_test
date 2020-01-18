@@ -18,6 +18,7 @@
   "homepage": "https://github.com/DevonMartens/project3_test#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
   }
 }
