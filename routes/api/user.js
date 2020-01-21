@@ -13,4 +13,15 @@ router
   .put(userController.update)
   .delete(userController.remove);
 
-module.exports = router;
+  //register
+
+router.get('/register', function(req, res){
+res.render('register');
+});
+
+  //register
+
+  router.get('/login', function(req, res){
+    res.render('login');
+    }); 
+module.exports = router;  
