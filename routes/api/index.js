@@ -7,4 +7,10 @@ router.use("/user", userRoutes);
 //Questions routes
 router.use("/questions", questionRoutes);
 
+//get homepage
+router.get('/', function(req, res){
+    res.render('index');
+});
+
 module.exports = router;
+ 
