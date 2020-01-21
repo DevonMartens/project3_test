@@ -1,6 +1,8 @@
 const router = require("express").Router();
 const userController = require("../../controllers/userController");
 
+
+var user = require(/models/user);
 // Matches with "/api/user"
 router.route("/")
   .get(userController.findAll)
@@ -50,6 +52,21 @@ errors:  errors
 });
 }
 else{
-var newUser =
+var newUser = new User({
+  name: name,
+  email: email,
+  username: username,
+  password = password
+});
+User.createUser(newUser, function(err, user) {
+  if(err) throw err;
+  console.log(user);
+});
+//flash
+//msgs
+//Where are we redirecting after registering
+req.flash('success_msg', 'thank you for registering,');
+res.redirect('/users/log')
 }
+});
 module.exports = router;  
