@@ -29,3 +29,4 @@ module.exports.createUser = function(newUser, callback){
 }
 
 module.exports = User;
+ 
