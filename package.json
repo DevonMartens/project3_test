@@ -19,6 +19,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.8.9"
+    "mongoose": "^5.8.9",
+    "superagent": "^5.2.1"
   }
 }
